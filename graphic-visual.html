@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description"
+        content="Ortiz & Co. - With a passion for planning, combined with the pursuit of success for every event, Liza’s accomplishments come from her sharp instincts and strong business sense." />
+    <meta name="keywords"
+        content="Meetings, Events, Planning, Virtual and Hybrid Production, Event and Meeting Management, Destination and Venue Management" />
+    <meta name="author" content="Liza Ortiz" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ortiz & Co. - Events & Meeting Planning</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/i/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/i/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/i/favicon-16x16.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/i/favicon.ico" />
+    <link rel="manifest" href="assets/i/site.webmanifest" />
+    <link href="assets/lib/loaders.css/loaders.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono%7cPT+Serif:400,400i%7cLato:100,300,400,700,800,900"
+        rel="stylesheet" />
+    <link href="assets/css/theme.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        function includeHTML() {
+            var z, i, elmnt, file, xhttp;
+            /*loop through a collection of all HTML elements:*/
+            z = document.getElementsByTagName("*");
+            for (i = 0; i < z.length; i++) {
+                elmnt = z[i];
+                /*search for elements with a certain atrribute:*/
+                file = elmnt.getAttribute("w3-include-html");
+                if (file) {
+                    /*make an HTTP request using the attribute value as the file name:*/
+                    xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function () {
+                        if (this.readyState == 4) {
+                            if (this.status == 200) {
+                                elmnt.innerHTML = this.responseText;
+                            }
+                            if (this.status == 404) {
+                                elmnt.innerHTML = "Page not found.";
+                            }
+                            /*remove the attribute, and call this function once more:*/
+                            elmnt.removeAttribute("w3-include-html");
+                            includeHTML();
+                        }
+                    };
+                    xhttp.open("GET", file, true);
+                    xhttp.send();
+                    /*exit the function:*/
+                    return;
+                }
+            }
+        }
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-390P6FLQ4G"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "G-390P6FLQ4G");
+    </script>
+    <style>
+        .slider {
+            width: 100%;
+            max-width: 800px;
+            height: 350px;
+            position: relative;
+            overflow: hidden;
+            /* <=== */
+            border-radius: 15px;
+        }
+
+        .slide {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+            position: absolute;
+            transition: all 0.5s;
+        }
+
+        .slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .btn {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            padding: 10px;
+            border: none;
+            border-radius: 50%;
+            z-index:
+                10px;
+            cursor: pointer;
+            background-color: #fff;
+        }
+
+        .btn:active {
+            transform: scale(1.1);
+        }
+
+        .btn-prev {
+            top: 45%;
+            left: 2%;
+        }
+
+        .btn-next {
+            top: 45%;
+            right: 2%;
+        }
+    </style>
+</head>
+
+<body class="overflow-hidden-x">
+    <!-- NAV -->
+    <div w3-include-html="components/navigation.html"></div>
+    <!--===============================================-->
+    <!--    End of Fancynav-->
+    <!--===============================================-->
+
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main min-vh-100" id="top">
+        <!-- <section> begin ============================-->
+        <section class="py-0" id="page-services">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 px-0 order-lg-2 pt-5">
+                        <div class="sticky-top vh-lg-100 py-9">
+                            <div class="bg-holder" style="background-image: url(assets/i/new-side-1.jpg)"
+                                data-zanim-trigger="scroll"
+                                data-zanim-lg='{"animation":"zoom-out-slide-left","delay":0.4}'></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 bg-light py-6">
+                        <div class="row h-100 align-items-center justify-content-center">
+                            <div class="col-sm-11 col-md-8 col-lg-11 col-xl-9 px-xl-3 px-4 py-0 py-md-6">
+                                <div class="mb-3 mb-lg-3 overflow-hidden">
+                                    <h1>Graphic Design & Activation</h1>
+                                </div>
+                                <div class="media mb-5 card-service" data-zanim-timeline="{}"
+                                    data-zanim-trigger="scroll">
+                                    <div class="media-body" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}'>
+                                        <div class="overflow-hidden">
+                                            <p class="mb-0">
+                                                Signage is an essential part of any event. They help to communicate your
+                                                message and information to attendees while
+                                                adding and utilizing beautiful and colorful signs throughout your event
+                                                space.
+                                            </p>
+                                            <p></p>
+                                            <p>Depending on your message, signs can offer many benefits, so let your
+                                                imagination run wild and take your graphic installations to the next
+                                                level. </p>
+                                            <p>Services we offer:</p>
+                                            <ul>
+                                                <li>Interior Signs</li>
+                                                <li>Exterior Signs</li>
+                                                <li>Vehicle Wraps</li>
+                                                <li>Vinyl Banners</li>
+                                                <li>Wall Decals</li>
+                                                <li>Entrance Units</li>
+                                                <li>Digital Signs</li>
+                                                <li>Window & Floor Decals</li>
+                                                <li>Display Units</li>
+                                                <li>Installation & Dismantle</li>
+                                            </ul>
+                                            <p>The Ortiz & Co. branding process is:</p>
+                                            <ul>
+                                                <li>Consultation</li>
+                                                <li>Design</li>
+                                                <li>Approvals</li>
+                                                <li>Activation & Production</li>
+                                                <li>Installation & Dismantling</li>
+
+                                            </ul>
+                                            <!-- Slider container -->
+                                            <div class="slider my-5">
+                                                <!-- slide 4 -->
+                                                <div class="slide">
+                                                    <img src="assets/i/new-art-7.jpg" alt="" />
+                                                </div>
+                                                <!-- slide 1 -->
+                                                <div class="slide">
+                                                    <img src="assets/i/new-art-1.jpg" alt="" />
+                                                </div>
+
+                                                <!-- slide 2 -->
+                                                <div class="slide">
+                                                    <img src="assets/i/new-art-2.jpg" alt="" />
+                                                </div>
+
+                                                <!-- slide 3 -->
+                                                <div class="slide">
+                                                    <img src="assets/i/new-art-3.jpg" alt="" />
+                                                </div>
+
+                                                <!-- slide 4 -->
+                                                <div class="slide">
+                                                    <img src="assets/i/new-art-4.jpg" alt="" />
+                                                </div>
+                                                <!-- Control buttons -->
+                                                <button class="btn btn-next"><svg xmlns="http://www.w3.org/2000/svg"
+                                                        width="16" height="16" fill="currentColor"
+                                                        class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                                                    </svg></button>
+                                                <button class="btn btn-prev"><svg xmlns="http://www.w3.org/2000/svg"
+                                                        width="16" height="16" fill="currentColor"
+                                                        class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+                                                    </svg></button>
+                                            </div>
+                                            <!-- <img class="mt-4 mb-4" width="100%" src="assets/i/new-oset.jpg"> -->
+                                            <p>
+                                                Graphics help to tell brand stories and support other initiatives, such
+                                                as optimizing
+                                                sustainability efforts and increasing sales. Start to see every surface
+                                                as an opportunity to
+                                                tell
+                                                a story!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div w3-include-html="components/footer.html">
+    </div>
+    <!-- ===============================================-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/lib/loaders.css/loaders.css.js"></script>
+    <script src="assets/js/stickyfill.min.js"></script>
+    <script src="assets/lib/is_js/is.min.js"></script>
+    <script src="assets/lib/jtap/jquery.tap.js"></script>
+    <script src="assets/js/rellax.min.js"></script>
+    <script src="assets/lib/fancybox/jquery.fancybox.min.js"></script>
+    <script src="assets/lib/jquery.mb.ytplayer/jquery.mb.YTPlayer.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="vendors/swiper/swiper-bundle.min.js"></script>
+    <link src="vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <script>
+        includeHTML();
+    </script>
+    <script>
+        "use strict";
+        // Select all slides
+        const slides = document.querySelectorAll(".slide");
+
+        // loop through slides and set each slides translateX
+        slides.forEach((slide, indx) => {
+            slide.style.transform = `translateX(${indx * 100}%)`;
+        });
+
+        // select next slide button
+        const nextSlide = document.querySelector(".btn-next");
+
+        // current slide counter
+        let curSlide = 0;
+        // maximum number of slides
+        let maxSlide = slides.length - 1;
+
+        // add event listener and navigation functionality
+        nextSlide.addEventListener("click", function () {
+            // check if current slide is the last and reset current slide
+            if (curSlide === maxSlide) {
+                curSlide = 0;
+            } else {
+                curSlide++;
+            }
+
+            // move slide by -100%
+            slides.forEach((slide, indx) => {
+                slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
+            });
+        });
+
+        // select next slide button
+        const prevSlide = document.querySelector(".btn-prev");
+
+        // add event listener and navigation functionality
+        prevSlide.addEventListener("click", function () {
+            // check if current slide is the first and reset current slide to last
+            if (curSlide === 0) {
+                curSlide = maxSlide;
+            } else {
+                curSlide--;
+            }
+
+            // move slide by 100%
+            slides.forEach((slide, indx) => {
+                slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
+            });
+        });
+    </script>
+</body>
+
+</html>

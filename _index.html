@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description"
+    content="Ortiz & Co. - With a passion for planning, combined with the pursuit of success for every event, Liza’s accomplishments come from her sharp instincts and strong business sense." />
+  <meta name="keywords"
+    content="Meetings, Events, Planning, Virtual and Hybrid Production, Event and Meeting Management, Destination and Venue Management" />
+  <meta name="author" content="Liza Ortiz" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ortiz & Co. - Events & Meeting Planning</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="http://ortizandco.com/site/assets/i/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="http://ortizandco.com/site/assets/i/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="http://ortizandco.com/site/assets/i/favicon-16x16.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="http://ortizandco.com/site/assets/i/favicon.ico" />
+  <link rel="manifest" href="http://ortizandco.com/site/assets/i/site.webmanifest" />
+  <link href="http://ortizandco.com/site/assets/lib/loaders.css/loaders.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=PT+Mono%7cPT+Serif:400,400i%7cLato:100,300,400,700,800,900"
+    rel="stylesheet" />
+  <link href="http://ortizandco.com/site/assets/css/theme.css" rel="stylesheet" />
+  <script>
+    function includeHTML() {
+      var z, i, elmnt, file, xhttp;
+      /*loop through a collection of all HTML elements:*/
+      z = document.getElementsByTagName("*");
+      for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute("w3-include-html");
+        if (file) {
+          /*make an HTTP request using the attribute value as the file name:*/
+          xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function () {
+            if (this.readyState == 4) {
+              if (this.status == 200) {
+                elmnt.innerHTML = this.responseText;
+              }
+              if (this.status == 404) {
+                elmnt.innerHTML = "Page not found.";
+              }
+              /*remove the attribute, and call this function once more:*/
+              elmnt.removeAttribute("w3-include-html");
+              includeHTML();
+            }
+          };
+          xhttp.open("GET", file, true);
+          xhttp.send();
+          /*exit the function:*/
+          return;
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="overflow-hidden-x">
+  <!--===============================================-->
+  <!--    Fancynav-->
+  <!--===============================================-->
+  <!--===============================================-->
+  <!--    End of Fancynav-->
+  <!--===============================================-->
+
+  <!-- ===============================================-->
+  <!--    Main Content-->
+  <!-- ===============================================-->
+  <main class="main min-vh-100" id="top">
+    <!-- ============================================-->
+    <!-- Preloader ==================================-->
+    <div class="preloader" id="preloader">
+      <div class="loader">
+        <div class="line-scale-pulse-out-rapid">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <!-- ============================================-->
+    <!-- End of Preloader ===========================-->
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section class="text-center py-0">
+      <div class="container">
+        <div class="row min-vh-100 align-items-center justify-content-center">
+          <div class="col">
+            <img class="fancynavbar-brand-img" src="http://ortizandco.com/site/assets/i/oac-logo-all-white.svg" alt=""
+              width="250" height="250"
+              data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}'
+              style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0)" />
+            <h3 class="text-dark mb-2">New things coming soon.</h3>
+            <h4>We Plan. You meet.</h4>
+            <!-- <a
+                class="btn btn-primary"
+                href="documentation/getting-started.html"
+                >Getting started</a
+              > -->
+          </div>
+        </div>
+      </div>
+      <!-- end of .container-->
+    </section>
+    <!-- <section> close ============================-->
+    <!-- ============================================-->
+  </main>
+  <!-- ===============================================-->
+  <!--    JavaScripts-->
+  <!-- ===============================================-->
+  <script src="http://ortizandco.com/site/assets/js/jquery.min.js"></script>
+  <script src="http://ortizandco.com/site/assets/js/popper.min.js"></script>
+  <script src="http://ortizandco.com/site/assets/js/bootstrap.js"></script>
+  <script src="http://ortizandco.com/site/assets/js/plugins.js"></script>
+  <script src="http://ortizandco.com/site/assets/lib/loaders.css/loaders.css.js"></script>
+  <script src="http://ortizandco.com/site/assets/js/stickyfill.min.js"></script>
+  <script src="http://ortizandco.com/site/assets/lib/is_js/is.min.js"></script>
+  <script src="http://ortizandco.com/site/assets/lib/jtap/jquery.tap.js"></script>
+  <script src="http://ortizandco.com/site/assets/js/rellax.min.js"></script>
+  <script src="http://ortizandco.com/site/assets/lib/fancybox/jquery.fancybox.min.js"></script>
+  <script src="http://ortizandco.com/site/assets/js/theme.js"></script>
+</body>
+
+</html>
